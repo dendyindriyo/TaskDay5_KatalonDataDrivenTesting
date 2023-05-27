@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cart_Swag Labs/button_Remove_1_2",
+      "brokenLocator": "//button[@id\u003d\u0027remove-sauce-labs-bolt-t-shirt\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cart_contents_container\u0027]/div/div/div[5]/div[2]/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart_Swag Labs/button_Remove_1_2_idRelative.png"
+    }
+  ]
 }
