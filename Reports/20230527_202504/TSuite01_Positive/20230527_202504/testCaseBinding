@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/TS_01_Login/TC_01_Login using standardUser Username_Positive","testCaseId":"Test Cases/TS_01_Login/TC_01_Login using standardUser Username_Positive","iterationVariableName":""}
+{"testCaseName":"Test Cases/TS_01_Login/TC_03_Login using problemUser Username_Positive","testCaseId":"Test Cases/TS_01_Login/TC_03_Login using problemUser Username_Positive","iterationVariableName":""}
+{"testCaseName":"Test Cases/TS_01_Login/TC_04_Login using performanceGlitchUser Username_Positive","testCaseId":"Test Cases/TS_01_Login/TC_04_Login using performanceGlitchUser Username_Positive","iterationVariableName":""}
+{"testCaseName":"Test Cases/TS_02_Cart/TC_05_Adding and removing cart objects using standardUser_Positive","testCaseId":"Test Cases/TS_02_Cart/TC_05_Adding and removing cart objects using standardUser_Positive","iterationVariableName":""}
+{"testCaseName":"Test Cases/TS_03_Checkout/TC_06_Checkout using standardUser_Positive","testCaseId":"Test Cases/TS_03_Checkout/TC_06_Checkout using standardUser_Positive","iterationVariableName":""}

@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tsuite02_Negative,Chrome 113.0.0.0,,,2023-05-27 20:22:47,2023-05-27 20:23:04,16.263s,PASSED
+,,,,,,,
+Test Cases/TS_01_Login/TC_02_Login using lockedOutUser Username_Negative,Chrome 113.0.0.0,,,2023-05-27 20:22:48,2023-05-27 20:22:52,4.443s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 20:22:48,2023-05-27 20:22:50,1.848s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 20:22:50,2023-05-27 20:22:50,0.425s,PASSED
+"setText(findTestObject(""Object Repository/Login_Swag Labs/input_Swag Labs_user-name""), username)",Chrome 113.0.0.0,,,2023-05-27 20:22:50,2023-05-27 20:22:51,0.693s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Swag Labs/input_Swag Labs_password""), password)",Chrome 113.0.0.0,,,2023-05-27 20:22:51,2023-05-27 20:22:51,0.407s,PASSED
+"click(findTestObject(""Object Repository/Login_Swag Labs/input_Swag Labs_login-button""))",Chrome 113.0.0.0,,,2023-05-27 20:22:51,2023-05-27 20:22:52,0.365s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7""), ""Epic sadface: Sorry, this user has been locked out."")",Chrome 113.0.0.0,,,2023-05-27 20:22:52,2023-05-27 20:22:52,0.434s,PASSED
+,,,,,,,
+Test Cases/TS_03_Checkout/TC_07_Checkout using problemUser_Negative,Chrome 113.0.0.0,,,2023-05-27 20:22:52,2023-05-27 20:23:04,11.656s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 20:22:52,2023-05-27 20:22:54,1.829s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 20:22:54,2023-05-27 20:22:55,0.700s,PASSED
+"setText(findTestObject(""Login_Swag Labs/input_Swag Labs_user-name""), username)",Chrome 113.0.0.0,,,2023-05-27 20:22:55,2023-05-27 20:22:56,0.810s,PASSED
+"setEncryptedText(findTestObject(""Login_Swag Labs/input_Swag Labs_password""), password)",Chrome 113.0.0.0,,,2023-05-27 20:22:56,2023-05-27 20:22:56,0.385s,PASSED
+"click(findTestObject(""Login_Swag Labs/input_Swag Labs_login-button""))",Chrome 113.0.0.0,,,2023-05-27 20:22:56,2023-05-27 20:22:56,0.387s,PASSED
+"click(findTestObject(""Object Repository/Main_Swag Labs/button_Add to cart""))",Chrome 113.0.0.0,,,2023-05-27 20:22:56,2023-05-27 20:22:57,0.462s,PASSED
+"click(findTestObject(""Object Repository/Main_Swag Labs/button_Add to cart_1""))",Chrome 113.0.0.0,,,2023-05-27 20:22:57,2023-05-27 20:22:57,0.539s,PASSED
+"click(findTestObject(""Object Repository/Main_Swag Labs/button_Add to cart_1_2""))",Chrome 113.0.0.0,,,2023-05-27 20:22:57,2023-05-27 20:22:58,0.546s,PASSED
+"click(findTestObject(""Main_Swag Labs/button_Add to cart_1_2_3""))",Chrome 113.0.0.0,,,2023-05-27 20:22:58,2023-05-27 20:22:58,0.335s,PASSED
+"click(findTestObject(""Main_Swag Labs/button_Add to cart_1_2_3_4""))",Chrome 113.0.0.0,,,2023-05-27 20:22:58,2023-05-27 20:22:59,0.324s,PASSED
+"click(findTestObject(""Main_Swag Labs/button_Add to cart_1_2_3_4_5""))",Chrome 113.0.0.0,,,2023-05-27 20:22:59,2023-05-27 20:22:59,0.548s,PASSED
+"click(findTestObject(""Main_Swag Labs/icon_shoppingCart""))",Chrome 113.0.0.0,,,2023-05-27 20:22:59,2023-05-27 20:23:00,0.340s,PASSED
+"click(findTestObject(""Object Repository/Main_Swag Labs/button_Checkout""))",Chrome 113.0.0.0,,,2023-05-27 20:23:00,2023-05-27 20:23:00,0.557s,PASSED
+"setText(findTestObject(""Checkout_Swag Labs/input_Checkout Your Information_firstName""), firstName)",Chrome 113.0.0.0,,,2023-05-27 20:23:00,2023-05-27 20:23:01,0.886s,PASSED
+"setText(findTestObject(""Checkout_Swag Labs/input_Checkout Your Information_lastName""), lastName)",Chrome 113.0.0.0,,,2023-05-27 20:23:01,2023-05-27 20:23:02,0.855s,PASSED
+"setText(findTestObject(""Checkout_Swag Labs/input_Checkout Your Information_postalCode""), postalCode)",Chrome 113.0.0.0,,,2023-05-27 20:23:02,2023-05-27 20:23:03,0.937s,PASSED
+"click(findTestObject(""Checkout_Swag Labs/input_Cancel_continue""))",Chrome 113.0.0.0,,,2023-05-27 20:23:03,2023-05-27 20:23:03,0.568s,PASSED
+"verifyElementText(findTestObject(""Checkout_Swag Labs/h3_Error Last Name is required""), ""Error: Last Name is required"")",Chrome 113.0.0.0,,,2023-05-27 20:23:03,2023-05-27 20:23:04,0.431s,PASSED
