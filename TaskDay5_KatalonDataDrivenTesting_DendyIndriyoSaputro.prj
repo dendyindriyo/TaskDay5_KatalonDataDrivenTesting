@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>TaskDay5_KatalonDataDrivenTesting_DendyIndriyoSaputro</name>
+   <name>TaskDay6_KatalonDataDrivenTesting_DendyIndriyoSaputro</name>
    <tag></tag>
    <UUID>89481e91-b107-473f-a036-b8238cd9fd21</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Program Files\Katalon\Katalon Projects\TaskDay5_KatalonDataDrivenTesting_DendyIndriyoSaputro\TaskDay5_KatalonDataDrivenTesting_DendyIndriyoSaputro.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
